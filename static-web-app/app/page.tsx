@@ -1,3 +1,10 @@
 export default function Page() {
-  return <h1>Hello, Next.js!</h1>;
+  return (
+    <p>
+      Linked In:{" "}
+      <a href='https://www.linkedin.com/in/thienntn1/' target='_blank'>
+        https://www.linkedin.com/in/thienntn1
+      </a>
+    </p>
+  );
 }
